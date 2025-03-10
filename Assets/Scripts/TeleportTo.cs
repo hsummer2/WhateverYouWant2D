@@ -23,7 +23,7 @@ public class TeleportTo : MonoBehaviour
     public UnityEvent onTeleport;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         entry.teleportName = teleportName;
     }
